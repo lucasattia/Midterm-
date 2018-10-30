@@ -11,6 +11,7 @@ public class ShapeTest extends TestCase {
     	Rectangle r1 = new Rectangle(4,5);
     	assert(r1 instanceof Rectangle);
  	    assertEquals((double) r1.area() == 20, true);
+ 	    assertEquals((double) r1.perimeter() == 18, true);
  	    assertEquals((double) r1.getiWidth() == 4, true); 
  	    assertEquals((double) r1.getiLength() == 5, true); 
  	    r1.setiLength(2);
